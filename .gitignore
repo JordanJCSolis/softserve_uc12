@@ -1,0 +1,41 @@
+# Exclusions
+# Java related
+target/**
+*.jar
+*.war
+*.ear
+*.class
+
+# Eclipse
+.classpath
+.project
+.settings/
+*.pydevproject
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+target/
+
+# Extent report properties
+extent-report-properties/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
